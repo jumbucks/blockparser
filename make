@@ -122,7 +122,7 @@ my($fortran) = "gfortran++";
 my(@inc) = qw(
     -I.
     -DNDEBUG
-    -DBITCOIN
+    -DJUMBUCKS
     -DWANT_DENSE
     -D__STDC_FORMAT_MACROS=1
 );
@@ -161,21 +161,6 @@ my(@lib) = qw(
 
     crypto/sha256_btc.cpp
     crypto/ripemd160_btc.cpp
-
-    h9/jh.c
-    h9/bmw.c
-    h9/echo.c
-    h9/simd.c
-    h9/blake.c
-    h9/fugue.c
-    h9/hamsi.c
-    h9/luffa.c
-    h9/skein.c
-    h9/keccak.c
-    h9/groestl.c
-    h9/shavite.c
-    h9/cubehash.c
-    h9/aes_helper.c
 
     scrypt/pbkdf2.cpp
     scrypt/scrypt.cpp

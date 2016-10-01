@@ -127,7 +127,7 @@ static double getMem() {
 
 #if defined JUMBUCKS
     static const size_t gHeaderSize = 80;
-    static auto kCoinDirName = ".coinmarketscoin";
+    static auto kCoinDirName = ".jumbucks";
     static const uint32_t gExpectedMagic = 0xb6f1f4fc;
 #endif
 
